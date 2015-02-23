@@ -26,12 +26,6 @@ def item4():
     else:
         print '{} é uma consoante'.format(char)
 
-def item5():
-    pass
-
-def item6():
-    pass
-
 def item7():
     numero = []
     print 'digite três números:'
@@ -53,9 +47,6 @@ def item7():
 
     print 'menor: {}\nmaior:{}'.format(menor, maior)
 
-def item8():
-    pass
-
 def item9():
     numero = []
     print 'digite três números:'
@@ -64,30 +55,6 @@ def item9():
         numero.append(input())
 
     print'ordem decrescente:', sorted(numero, reverse = True)
-
-def item10():
-    pass
-
-def item11():
-    pass
-
-def item12():
-    pass
-
-def item13():
-    pass
-
-def item14():
-    pass
-
-def item15():
-    pass
-
-def item16():
-    pass
-
-def item17():
-    pass
 
 def item18():
     from datetime import datetime
@@ -102,21 +69,6 @@ def item18():
         print 'data inválida'
         return item18()
 
-def item18():
-    pass
-
-def item19():
-    pass
-
-def item20():
-    pass
-
-def item21():
-    pass
-
-def item22():
-    pass
-
 def item23():
     num = input('digite um número:')
     num_round = round(num)
@@ -126,18 +78,6 @@ def item23():
 
     else:
         print '{} é inteiro'.format(num)
-
-def item24():
-    pass
-
-def item25():
-    pass
-
-def item26():
-    pass
-
-def item27():
-    pass
 
 def item28():
     mercado = {

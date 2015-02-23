@@ -41,12 +41,6 @@ def item8():
     hora = input('quantas horas trabalha por mês:')
     print 'valor do salário:', valor * hora
 
-def item9():
-    pass
-
-def item10():
-    pass
-
 def item11():
     num1 = int(input('informe o primeiro número inteiro:'))
     num2 = int(input('informe o segundo número inteiro:'))
@@ -55,24 +49,12 @@ def item11():
     print 'a soma do triplo do primeiro com o terceiro:', 3 * num1 + num3
     print 'o terceiro elevado ao cubo:', num3 ** 3
 
-def item12():
-    pass
-
-def item13():
-    pass
-
 def item14():
     multa = 0
     peso = input('peso (kg):')
     excesso = peso - 50 if (peso - 50) >= 1 else 0
     multa = 4 * excesso
     print 'excesso:{}\nmulta:{} reais'.format(excesso, multa)
-
-def item15():
-    pass
-
-def item16():
-    pass
 
 def item17():
     lata, galao = 18, 3.6
