@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#comentario para alteração
 
 def item1():
     nota = input('digite uma nota:')
